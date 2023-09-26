@@ -1,0 +1,10 @@
+.navBar {
+    background: #e9e9e9;
+    box-shadow: 0.125rem, .25rem rgba(0, 0, 0, .075);
+    display: flex;
+    padding: 0 20px;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 15vh;
+}
+
