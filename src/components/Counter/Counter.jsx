@@ -1,7 +1,8 @@
-import { useState } from 'react'
+import { useContext, useState } from 'react'
+import AppContext from '../../context/AppContext';
 function Counter() {
 
-  const [contador, setContador] = useState(0);
+  const {contador,setContador} = useContext(AppContext)
   const [dataUltimoClique, setDataUltimoClique] = useState();
 
   const incrementarContador = () => {

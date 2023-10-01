@@ -1,4 +1,5 @@
 import { CartWidget } from '../CartWidget';
+import { SearchBar } from '../SearchBar/Index';
 import './styles.css';
 
 const NavBar = () => {
@@ -10,8 +11,8 @@ const NavBar = () => {
                 <li className='px-4'><a href="/">Produtos</a></li>
                 <li className='px-4'><a href="/">Suporte</a></li>
                 <li className='px-4'><a href="/">Contato</a></li>
-                <CartWidget/>
-                <input type="search" name="search" id="searchbox" placeholder='Pesquisa' className='rounded-lg m-2 ps-4 max-w-[12vw] border-sky-900 border-2 h-8' />
+                <CartWidget />
+                <SearchBar />
 
             </ul>
         </nav>
