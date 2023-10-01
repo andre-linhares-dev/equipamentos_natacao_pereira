@@ -1,14 +1,17 @@
 
-import { Header } from './components/header'
+import { NavBar } from './components/NavBar'
 import './App.css'
+import { ItemListContainer } from './components/ItemListContainer'
+// import Counter from './components/Counter/Counter'
 
 function App() {
 
 
   return (
     <div className='App'>
-     <Header/>
-        
+     <NavBar/>
+        {/* <Counter/> */}
+     <ItemListContainer/>
     </div>
   )
 }
